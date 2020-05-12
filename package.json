@@ -1,0 +1,65 @@
+{
+  "name": "npm-poc",
+  "version": "1.0.0",
+  "description": "Preview Modal",
+  "main": "dist/main.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "npm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "add": "^2.0.6",
+    "css-loader": "^3.5.3",
+    "node-sass": "^4.14.1",
+    "react-grid-layout": "^0.18.3",
+    "react-modal": "^3.11.2",
+    "sass-loader": "7.3.1",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.3",
+    "webpack": "^4.43.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-stage-0": "^7.8.3",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-grid-layout": "^0.17.1",
+    "@types/react-modal": "^3.10.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.8.3",
+    "webpack-cli": "^3.3.11",
+    "webpack-sources": "^1.4.3"
+  },
+  "files": [
+    "dist"
+  ]
+}

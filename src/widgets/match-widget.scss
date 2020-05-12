@@ -1,0 +1,34 @@
+/* Pattern styles */
+.container {
+  display: flex;
+  height: 200px;
+  flex-direction: row;
+}
+.left-half {
+  flex: 1;
+  padding: 1rem;
+  flex-direction: row;
+}
+.right-half {
+  flex: 1;
+  padding: 1rem;
+}
+.input-width {
+  width: 40px;
+}
+.match-left-view {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+.match-right-view {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.match-left-view-option {
+  width: 70%;
+}
+.match-left-view-delete {
+  width: 30%;
+}

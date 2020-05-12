@@ -1,0 +1,5 @@
+
+export const MATCH_WIDGET = {
+  QUESTION: 'QUESTION',
+  ANSWER: 'ANSWER',
+};
